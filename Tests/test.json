@@ -1,0 +1,17 @@
+{
+    "rules": {
+        "name": ["required"],
+        "password1": ["required"],
+        "password2": ["required", "comparePasswords"],
+        "age": [["range", 18, 100]]
+    },
+    "messages": {
+        "required": "Please fill #field#",
+        "comparePasswords": "passwords must be same",
+        "range": "#field# must be in range between #from# and #to#"
+    },
+    "labels": {
+        "name": "your name",
+        "age": "age"
+    }
+}
