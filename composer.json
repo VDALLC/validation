@@ -9,9 +9,8 @@
         "robloach/component-installer": "*"
     },
     "autoload": {
-        "psr-0": { "": "" }
+        "psr-4": { "Vda\\Validation\\": "src/" }
     },
-    "target-dir": "Vda/Validation",
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
